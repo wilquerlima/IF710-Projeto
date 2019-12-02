@@ -1,33 +1,17 @@
 package br.ufpe.cin.turistae
 
 import android.Manifest
-import android.content.Context
-import android.content.Intent
 import android.content.pm.PackageManager
-import android.location.Location
-import android.location.LocationManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Looper
-import android.provider.Settings
 import android.view.MenuItem
-import android.widget.TextView
-import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import br.ufpe.cin.turistae.ui.list.ListFragment
 import br.ufpe.cin.turistae.ui.map.MapFragment
 import com.google.android.gms.location.*
 
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.longToast
-import org.jetbrains.anko.toast
 
 class MainActivity : AppCompatActivity(),
     BottomNavigationView.OnNavigationItemSelectedListener {
