@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TuristAe</string>
+
+    <string-array name="touristSpot">
+        <item>Mercados Públicos</item>
+        <item>Pontes do Recife</item>
+        <item>Feiras Livre</item>
+        <item>Museus</item>
+        <item>Teatros</item>
+        <item>Shoppings</item>
+    </string-array>
 </resources>

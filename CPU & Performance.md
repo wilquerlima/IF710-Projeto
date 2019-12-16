@@ -1,0 +1,4 @@
+# CPU & Performance
+
+Ao iniciar o app, existe um consumo de 30% da CPU até a renderização da tela, após isto o consumo desce para 1%. Ao navegar na lista vertical não há alteração no consumo, mas ao selecionar um item da lista tem um aumento de 25% para enviar as informações e renderizar a proxima tela de detalhes.
+Navegando para o outro menu do app, o mapa, é percepitível o aumento do consumo de CPU que chega a 50%, por causa da renderização do mapa e dos markers utilizados, mas após a renderização de tudo, o consumo volta a sua normalidade. Possui um aumento quando o marker é clicado e é traçada a rota e chega a uns 44% e seguindo o mesmo fluxo, o consumo volta a sua normalidade após a rota ser traçada.

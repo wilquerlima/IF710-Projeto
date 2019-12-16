@@ -12,6 +12,7 @@ import com.google.android.gms.location.*
 
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
+import leakcanary.AppWatcher
 
 class MainActivity : AppCompatActivity(),
     BottomNavigationView.OnNavigationItemSelectedListener {

@@ -26,7 +26,7 @@
             tools:text="@tools:sample/full_names" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/description"
+            android:id="@+id/localizacao"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -36,10 +36,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/name"
             app:layout_constraintTop_toBottomOf="@id/name"
-            tools:text="@tools:sample/lorem/random" />
+            tools:text="@tools:sample/lorem" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/phone"
+            android:id="@+id/horario"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -48,7 +48,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/description"
+            app:layout_constraintTop_toBottomOf="@+id/localizacao"
             tools:text="@tools:sample/us_phones" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+# Bateria
+
+Quando iniciado o app, o consumo de bateria tem alguns picos que são classificados como MEDIUM e após o app ser iniciado, ele tende a permanecer como NONE. Durante o fluxo entre a lista e os detalhes, existe alguns pequenos picos de consumo que permutam entre LIGHT e MEDIUM.
+Após navegar para o mapa, foi perceptível que o consumo aumentou em relação as etapas anteriores, existe um aumento durante a renderização do mapa, chegando a permanecer constante no pico de HEAVY e após finalizar a renderização ele se mantem em LIGHT, mas após traçar a rota ele varia de MEDIUM a HEAVY e volta a ser NONE após terminar a renderização da rota no mapa.
